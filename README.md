@@ -35,10 +35,10 @@ Exited : whether or not the customer left the bank within six month. It can take
 
 **Actionable Insights and Business Recommendations**
 
-**Performance Overview**: Handling class imbalance is critical. Models using SMOTE (Synthetic Minority Over-sampling Technique) showed significantly improved recall compared to models without it. Addressing class imbalance in the data via SMOTE played a key role in improving model performance.
+*Performance Overview*: Handling class imbalance is critical. Models using SMOTE (Synthetic Minority Over-sampling Technique) showed significantly improved recall compared to models without it. Addressing class imbalance in the data via SMOTE played a key role in improving model performance.
 
-**Training vs. Validation Gap**: There are noticeable differences between training and validation recall scores; Among the better performing models, NN model with SMOTE & SGD has the lowest range between the training and validation metric results, indicating reasonable generalization.
+*Training vs. Validation Gap*: There are noticeable differences between training and validation recall scores; Among the better performing models, NN model with SMOTE & SGD has the lowest range between the training and validation metric results, indicating reasonable generalization.
 
-**Focus Retention Efforts on Predicted Churners**: Use the best-performing model (e.g., SMOTE + SGD with ~ 0.75 recall on the validation set) to identify high-risk customers and design targeted retention campaigns.
+*Focus Retention Efforts on Predicted Churners*: Use the best-performing model (e.g., SMOTE + SGD with ~ 0.75 recall on the validation set) to identify high-risk customers and design targeted retention campaigns.
 
-**Improve the model’s utility in identifying churners**: While the current results are promising, aim for recall values above 0.80 on the validation set to minimize false negatives further.
+*Improve the model’s utility in identifying churners*: While the current results are promising, aim for recall values above 0.80 on the validation set to minimize false negatives further.
